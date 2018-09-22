@@ -1,6 +1,7 @@
 
 body {
-	background-color: beige;
+
+     background: beige;
 
 }
 
@@ -8,14 +9,55 @@ body {
 h1  {
 	color: darkgreen;
 	text-align: center;
-	font-size: 30px;
-	font-family; "Times New Roman", Times, serif;
-	}
-	
+	font-size: 25px;
+	font-family: 'Cabin Sketch', cursive;
+	text-shadow: 3px 3px black;
+	padding-bottom: 5px;
+	word-spacing: 20px;
 }
+
 	
 p {
-    color: darkred;
+	color: darkred;
+    font-family: verdana;
+    font-size: 20px;
+	text-align: left;
+}
+
+.box1 {
     text-align: center;
-	font-size: 40px;
-} 
+    border: 2px solid lightblue;
+	border-radius: 80px;
+	
+	
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+	border-radius: 100px;
+	margin-top: 15px;
+}
+
+
+.text1 {
+	position: top;
+    text-align: left;
+    color: red;
+	
+   
+}
+
+.right {
+    position: absolute;
+    bottom: 470px;
+    left: 16px;
+}
+
+
+
+
+
+
