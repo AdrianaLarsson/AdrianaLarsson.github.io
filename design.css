@@ -20,8 +20,9 @@ h1  {
 p {
 	color: darkred;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
 	text-align: left;
+	
 }
 
 .box1 {
@@ -43,28 +44,80 @@ img {
 
 
 .text1 {
-	position: top;
+	
     text-align: left;
     color: red;
 	
    
 }
 
-.right {
+.right  {
     position: absolute;
     bottom: 470px;
     left: 16px;
 }
 
+.right a {
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: 10px;
+	color: black;
+	padding: 5px;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
 
 #rcorner1 {
    
-	 border-radius: 130px 1px 1px 130px;
+	 border-radius: 60px 1px;
     background: lightblue;
-    padding: 100px;
-	margin-bottom: -140px;
-	margin-left: 630px;
-    width: 10px;
-    height: -15px; 
-
+    padding: 15px;
+	margin-bottom: -40px;
+	margin-left: 685px;
+ 
 }
+
+
+
+#mittentext {
+   
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+	font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+    text-align: center; color: beige;
+    height: 3vh;
+}
+
+.mailicon {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  color: white;
+  background-color: currentColor;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotate(-54deg);
+          transform: rotate(-54deg);
+}
+
+
