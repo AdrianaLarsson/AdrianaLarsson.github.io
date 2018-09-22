@@ -59,12 +59,12 @@ img {
 
 #rcorner1 {
    
-	 border-radius: 15px 50px 30px 5px;
+	 border-radius: 130px 1px 1px 130px;
     background: lightblue;
     padding: 100px;
-	margin-top: 10px;
-	margin-right: 700px;
-    width: 200px;
-    height: 100px; 
-position: center;
+	margin-bottom: -140px;
+	margin-left: 630px;
+    width: 10px;
+    height: -15px; 
+
 }
