@@ -80,12 +80,12 @@ a:active {
 
 #rcorner1 {
    
-	 border-radius: 60px 1px;
+	 border-radius: 500px 5px;
     background: lightblue;
-    padding: 15px;
-	margin-bottom: -40px;
-	margin-left: 685px;
- 
+    padding: 25px;
+	margin-bottom: 5px;
+	margin-left: 658px;
+ margin-top: 70px;
 }
 
 
@@ -105,19 +105,15 @@ footer{
     height: 3vh;
 }
 
-.mailicon {
-  content: '';
-  position: absolute;
-  left: 7px;
-  top: -4px;
-  width: 1px;
-  height: 10px;
-  color: white;
-  background-color: currentColor;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
-  -webkit-transform: rotate(-54deg);
-          transform: rotate(-54deg);
+
+.spotify{
+padding-top: -200px;
+padding-bottom: -20px;
+padding-left: 300px;
+margin-bottom: 360px;
+margin-top: -480px;
+width: 90px;
+height: 20vh;
+	 border-radius: 500px 5px 8px 4px;
+
 }
-
-
