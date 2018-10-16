@@ -9,9 +9,17 @@
 <p>This is a paragraph.</p>
 <a href="https://adrianalarsson.github.io/garage.github.io/">My Deluxe Parking work</a>
 
-  <a href="https://adrianalarsson.github.io/Labyrint/ "> Labyrint app</a>
- 
   
+  
+ <div class="right"><a href="https://github.com/AdrianaLarsson/Labyrint/blob/master/Labyrintspel.xd"> Labyrint</a>
+ </div>
+ 
+ 
+ 
+ <div class="right"><a href="https://github.com/AdrianaLarsson/ljuvalivet/blob/master/Ljuvalivet.xd"> Ljuva livet</a>
+ </div>
+ 
+ 
   </body>
 
 </html>
