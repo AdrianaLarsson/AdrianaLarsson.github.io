@@ -1,130 +1,64 @@
-
-
-
-body {
-margin:0;
-	padding: 0;
-	height: 100px;
-    display: block;
-     background: beige;
-
+/*bakgrundfärgen */
+body{
+    background-color: rgb(170, 231, 255);
+    width: 99%;
+    height: 99vh;
 }
 
-
-h1  {
-	color: darkgreen;
-	text-align: center;
-	font-size: 25px;
-	font-family: 'Cabin Sketch', cursive;
-	text-shadow: 3px 3px black;
-	padding-bottom: 5px;
-	word-spacing: 20px;
-}
-
-	
-p {
-	color: beige;
-    font-family: verdana;
-    font-size: 15px;
-	text-align: center; 
-	
-}
-
-.box1 {
-    text-align: center;
-    border: 2px solid lightblue;
-	border-radius: 80px;
-	
-	
-}
-
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: right;
-	border-radius: 200px;
-	margin-top: 15px;
-}
-
-
-.text1 {
-	
-    text-align: left;
-    color: red;
-	
-   
-}
-
-
-}
-
-a:hover {
-    text-decoration: 10px;
-	color: black;
-	padding: 5px;
-}
-
-a:active {
-    text-decoration: underline;
-}
-
-
-
-
-
-#rcorner1 {
-   
-	 border-radius: 60px 2px;
-    background: lightblue;
-    padding: 15px;
-	margin-bottom: -50px;
-	margin-left: 1000px;
-    margin-top: -340px;
-	width: 200px;
-}
-
-
-
-#mittentext {
-   
-    text-align: center;
-    font-family: 'Tangerine', cursive;
-	font-size: 15px;
-    margin-bottom: 10px;
-}
-
-
-
-.spotify{
-padding-top: -50px;
-padding-bottom: -30px;
-padding-left: 720px;
-margin-bottom: 260px;
-margin-top: -450px;
-width: 90px;
-height: 5vh;
-
-}
-
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-    background-color: darkred;
-    text-align: center;
-	font-family: 'Tangerine', cursive;
-	margin-bottom: 3px;
-    padding-top: -4px;
-	height: 35px;
-}
-
-.adriana {
+ 
+header {
+    background-image: url(sunset.jpg); padding: 5px; background-repeat: no-repeat;
   
-	margin-bottom: 30px;
-    padding-top: 60px;
+    width: 99%;
+    height: 20vh;
+    
+ }
+  
+h1 {
+     color: beige; padding: 30px;
+     margin-left: 90px; 
+    
+ }
 
-}
+   
+nav {
+    background-color: rgb(180, 69, 69); float: center;
 
+     width: 15%;
+ height: 73vh;
+padding-bottom: 10px; 
+
+
+ }
+ article {
+  float: right;
+  background-image:url(adriana.jpg);
+  width: 25%;
+  height: 96vh;
+
+
+ }
+
+footer {
+width: 100%;
+height: 20px;;
+background-color: rgb(223, 223, 199);
+  
+   }
+  
+   
+aside {
+   background-color:rgb(255, 255, 236) ; float: right;
+   width: 60%;
+      height:74.5vh;
+       }
+
+       p {
+        text-align: center; 
+        font-family: Arial, Helvetica, sans-serif;
+
+            }
+        .right a {
+                color: beige;
+        
+                    }
