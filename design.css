@@ -1,7 +1,7 @@
 /*bakgrundfärgen */
 body{
     background-color: rgb(170, 231, 255);
-    max-width: 100%;
+    max-width: 100vw;
     height: 99vh;
 }
 
@@ -9,7 +9,7 @@ body{
 header {
     background-image: url(sunset.jpg); padding: 5px; background-repeat: no-repeat;
   
-   max-width: 100%; 
+   max-width: 100vw; 
        height: 20vh;
     
  }
@@ -25,25 +25,26 @@ h1 {
 nav {
     background-color: rgb(180, 69, 69); float: center;
 
-     width: 15%;
- height: 73vh;
+     width: 15vw;
+ height: 39.3vw;
 padding-bottom: 10px; 
 
 
  }
  article {
+     
   float: right;
-  background-image:url(adriana.jpg);
-  width: 25%;
-  height: 96vh;
+  background-image:url(adriana.jpg); width: 25vw ;
+  width: 25vw;
+  height: 51.7vw;
 
 
  }
 
 footer {
 
-max-width: 100%;
-height: 20px;;
+max-width: 100vw;
+height: 2vw;
 background-color: rgb(223, 223, 199);
   
    }
@@ -52,18 +53,24 @@ background-color: rgb(223, 223, 199);
 aside {
    
    background-color:rgb(255, 255, 236) ; float: right;
-   max-width: 60%;
-      height:74.5vh;
+   max-width: 57.4vw;
+      height:40.2vw;
        }
 
        p {
         text-align: center; font-size: 2vw;
         font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
+font-size: 1.5vw;
             }
 
         .right a {
-            font-size: 2.5vh;
+            font-size: 2vw;
                 color: beige;
         
                     }
+
+                    b {
+                        font-size: 1.2vw;
+                            color:black;
+                    
+                                }  
