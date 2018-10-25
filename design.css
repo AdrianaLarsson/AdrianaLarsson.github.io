@@ -1,7 +1,7 @@
 /*bakgrundfärgen */
 body{
     background-color: rgb(170, 231, 255);
-    width: 99%;
+    max-width: 100%;
     height: 99vh;
 }
 
@@ -9,14 +9,14 @@ body{
 header {
     background-image: url(sunset.jpg); padding: 5px; background-repeat: no-repeat;
   
-    width: 99%;
-    height: 20vh;
+   max-width: 100%; 
+       height: 20vh;
     
  }
   
 h1 {
      color: beige; padding: 30px;
-     font-size: 30px;
+     font-size: 2vw;
      margin-left: 90px; 
     
  }
@@ -41,7 +41,8 @@ padding-bottom: 10px;
  }
 
 footer {
-width: 100%;
+
+max-width: 100%;
 height: 20px;;
 background-color: rgb(223, 223, 199);
   
@@ -50,18 +51,18 @@ background-color: rgb(223, 223, 199);
    
 aside {
    background-color:rgb(255, 255, 236) ; float: right;
-   width: 60%;
+   max-width: 60%;
       height:74.5vh;
        }
 
        p {
-        text-align: center; 
+        text-align: center; font-size: 2vw;
         font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
             }
 
         .right a {
-            font-size: 20px;
+            font-size: 2.5vh;
                 color: beige;
         
                     }
