@@ -9,6 +9,30 @@ body{
  background-repeat: no-repeat;
  }
 
+header{
+  padding-top: 0vw;
+  text-align: left;
+  font-size: 8vw;
+  text-shadow: 1px 3px red;
+  color: rgb(0, 0, 0);
+ margin-left:1vw;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+    position: relative;
+    -webkit-animation: mymove 7s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 7s infinite;
+
+}
+
+@-webkit-keyframes mymove {
+  from {left: 10px;}
+  to {left: 110px;}
+}
+
+@keyframes mymove {
+  from {left: 10px;}
+  to {left: 110px;}
+}
 
  #canvas{
 
@@ -20,7 +44,8 @@ background-size: cover;
 background-position: center;
     width: 100%;
     height: auto;
-
+font-size: 10vw;
+color: red;
  } 
 
  .picture{
