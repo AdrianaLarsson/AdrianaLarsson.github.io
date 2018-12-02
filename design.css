@@ -1,130 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
 /*bakgrundfärgen */
 body{
-    
-    box-sizing: border-box;
-    background-color: rgb(170, 231, 255);
-   
-
-}
-
-section {
-    
-  width: 100%;
-  height: 99vw;
-    
+    height: auto;
+    background-image: linear-gradient(to bottom right, red , rgb(255, 230, 0), rgb(74, 74, 255));
+ background-repeat: no-repeat;
  }
 
 
-.header {
-    
-    padding: 80px;
-    text-align: center;
-   
+ #canvas{
 
-    background-image: url(sunset.jpg); padding: 5px; background-repeat: no-repeat;
+    float: center;
+    background-image: url(stor.jpg); 
+    background-repeat: no-repeat;
+background-position-x: 10ch;
+background-size: cover;
+background-position: center;
+    width: 100%;
+    height: auto;
+
+ } 
+
+ .picture{
+float:right;
+background-image: url(adriana.jpg);
+margin-right:2px;
+margin-top: 10px;
+width: 30%;
+height: 50vw;
+background-repeat: no-repeat;
+
+background-size: cover;
+background-position: center;
+border-bottom-left-radius: 10ch;
+box-shadow: 0 0 20ch;
+ }
+
+ .navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(255, 215, 189);
+    width: 100%;
+
+    height: auto;
+    /* position: fixed; följer med*/
+  }
   
-   max-width: 100vw; 
-       height: 15vw;
-
-
-    
- }
-  
-h1 {
- 
-     color: beige; padding: 5vw;
-     font-size: 2vw;
-     margin-left: 90px; 
-    
- }
-
-
-.nav {
-   
-    background-color: rgb(180, 69, 69); float: center;
-
-    float:left;
-    width:15%;
-    padding:0 20px;
-    height: 43vw;
-display: -ms-flexbox; /* IE10 */
+.navbar a {
+float: left;
 display: flex;
--ms-flex-wrap: wrap; /* IE10 */
-flex-wrap: wrap;
- }
- 
- 
- .article {
-   
 
-  background-image:url(adriana.jpg); width: 20vw ; background-repeat: no-repeat;  background-origin: border-box;
+color: rgb(167, 0, 0);
+font-size: 1vw;
+margin-top:-4px;
+text-decoration: none;
+padding: 2vw 1vw;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .om {
 
-  float: right;
-  width:25%;
-  padding:53px;
- padding: top 10px; ;
-height: 59vw;
-
-
- }
-
-footer {
-  float: left;
-max-width: 100vw;
-height: 2vw;
-background-color: rgb(223, 223, 199);
-  
-   }
-  
-   
-.aside {
-
-    float: left;;
-    width:45%;
-    padding:0 20px;
-
-    background-position: center;
-    -ms-flex: 30%; /* IE10 */
+    float: center;
+    width:55%;
+  margin-left:20px;
+font-size: 2vw;
+text-align: center;
+    -ms-flex: 30%; 
     flex: 30%;
    
+    overflow: hidden;
 
-
-   background-color:rgb(255, 255, 236) ; float: right;
-
-
-    
-
-       }
-
-       p {
-   
-        text-align: center; font-size: 2vw;
-        font-family: Arial, Helvetica, sans-serif;
-font-size: 1.5vw;
-            }
-
-        .navbar {
-          overflow: hidden; color: beige;
-            font-size: 2vw;
-                color: beige;
-        
-                    }
-
-                    .navbar a {
-                        float: left;
-                        display: block;
-                        color: white;
-                        text-align: center;
-                        padding: 10px 15px;
-                        text-decoration: none;
-                    }
-                    
-
-
-                    b {
-                      
-                        font-size: 1.2vw;
-                            color:black;
-                    
-                                }  
-
+    }
