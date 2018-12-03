@@ -5,7 +5,7 @@
 /*bakgrundfärgen */
 body{
     height: auto;
-    background-image: linear-gradient(to bottom right, red , rgb(255, 230, 0), rgb(74, 74, 255));
+    background-image: linear-gradient(to bottom right, rgb(255, 81, 81) , rgba(54, 92, 173, 0.781), rgb(255, 210, 86));
  background-repeat: no-repeat;
  }
 
@@ -66,7 +66,7 @@ box-shadow: 0 0 20ch;
  .navbar {
     display: flex;
     overflow: hidden;
-    background-color: rgb(255, 215, 189);
+    background-color: rgb(255, 158, 158);
     width: 100%;
 
     height: auto;
@@ -77,7 +77,7 @@ box-shadow: 0 0 20ch;
 float: left;
 display: flex;
 
-color: rgb(167, 0, 0);
+color: rgba(145, 0, 0, 0.863);
 font-size: 1vw;
 margin-top:-4px;
 text-decoration: none;
