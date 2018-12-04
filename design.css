@@ -90,7 +90,7 @@ padding: 2vw 1vw;
   .om {
 
     float: center;
-    width:55%;
+    width:63%;
   margin-left:20px;
 font-size: 3vw;
 text-align: center;
@@ -101,7 +101,11 @@ text-align: center;
 
     }
 
+fieldset{
+  float: right;
+  width: 95%;
 
+}
 
 
 #button{
