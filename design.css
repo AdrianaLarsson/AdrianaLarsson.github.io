@@ -78,7 +78,7 @@ float: left;
 display: flex;
 
 color: rgba(145, 0, 0, 0.863);
-font-size: 1vw;
+font-size: 2vw;
 margin-top:-4px;
 text-decoration: none;
 padding: 2vw 1vw;
@@ -92,7 +92,7 @@ padding: 2vw 1vw;
     float: center;
     width:55%;
   margin-left:20px;
-font-size: 2vw;
+font-size: 3vw;
 text-align: center;
     -ms-flex: 30%; 
     flex: 30%;
